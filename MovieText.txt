@@ -1,0 +1,50 @@
+1,Shawshank Redemption,1994,Drama,45
+2,The Godfather,1972,Drama,34
+3,The Godfather Part II,1974,Drama,12
+4,The Dark Knight,2008,Action,90
+5,Pulp Fiction,1994,Noir,34
+6,12 Angry Men,1957,Noir,56
+7,Schindler's List,1993,Drama,10
+8,The Good the Bad and the Ugly,1966,Action,2
+9,The Lord of the Rings The Return of the King,2003,Action,4
+10,Fight Club,1999,Action,6
+11,The Lord of the Rings The Fellowship of the Ring,2001,Action,20
+12,Star Wars Episode V - The Empire Strikes Back,1980,Scifi,12
+13,Forrest Gump,1994,Drama,1
+14,Inception,2010,Action,10
+15,One Flew Over the Cuckoo's Nest,1975,Noir,10
+16,The Lord of the Rings The Two Towers,2002,Action,5
+17,Goodfellas,1990,Drama,5
+18,The Matrix,1999,Scifi,5
+19,Star Wars Episode IV - A New Hope,1977,Scifi,6
+20,Seven Samurai,1954,Action,7
+21,Interstellar,2014,Scifi,8
+22,City of God,2002,Drama,9
+23,Se7en,1995,Horror,11
+24,The Usual Suspects,1995,Noir,2
+25,The Silence of the Lambs,1991,Horror,19
+26,It's a Wonderful Life,1946,Drama,21
+27,Once Upon a Time in the West,1968,Action,12
+28,Leon The Professional,1994,Drama,31
+29,Life Is Beautiful,1997,Comedy,3
+30,Casablanca,1942,Romance,5
+31,Raiders of the Lost Ark,1981,Action,6
+32,American History X,1998,Action,1
+33,Saving Private Ryan,1998,Action,3
+34,City Lights,1931,Drama,10
+35,Spirited Away,2001,Comedy,10
+36,Psycho,1960,Horror,6
+37,Rear Window,1954,Action,7
+38,Whiplash,2014,Drama,8
+39,The Untouchables,2011,Noir,3
+40,Modern Times,1936,Comedy,9
+41,Terminator 2 Judgment Day,1991,Action,10
+42,Memento,2000,Noir,9
+43,The Green Mile,1999,Drama,8
+44,The Pianist,2002,Drama,7
+45,The Departed,2006,Noir,7
+46,Apocalypse Now,1979,Action,5
+47,Sunset Blvd.,1950,Drama,5
+48,Gladiator,2000,Action,5
+49,Dr. Strangelove or How I Learned to Stop Worrying and Love the Bomb,1964,Comedy,5
+50,Back to the Future,1985,Action,5
