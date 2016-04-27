@@ -1,19 +1,22 @@
 Project	Summary
-This project is an extension of the Assignment 6.  This Project
+This project is an extension of the Assignment 6.  The user will input a file name of a list of movies, which is provided, and the program will read this list and convert it into a binary search tree. The program will allow you to search and edit the tree to
+simulate the process of renting a movie, returning a movie, or just looking through the movies.  The program allows for mmany functions
+such as finding a movie, renting a movie, printing the inventory, deleting movies, counting the total movies, returning a movie, adding a completely new movie, listing based on genre, listing based on dates in which the usar inputs, and finally being able to edit specific parts of the movies info.
+
 How	to	Run
-This	section	contains	instructions,	with	examples,	of	how	to	run	your	program.
+Just download each of the components (the FinalProject.cpp, MovieTree.cpp, MovieTree.h, and the MovieText.txt) and run them through a commandline argument calling in the MovieText.txt
+
 Dependencies
-This	section	contains	a	description	of	any	dependencies	that	your	program	requires.	
-For	example,	if	your	program	relies	on	another	third-party	library	that	needs	to	be	
-installed,	you	should	provide	a	description	of	where	to	find	that	library	and	
-instructions	for	how	to	install	it	or	a	link	to	installation	instructions.
+You will only require the list of movies which should be attatched to these files, just remember the name when you input it.
+
 System	Requirements
-Is	your	program	for	Windows,	Mac,	Linux?	Are	there	additional	system	
-requirements	other	than	the	operating	system?
+My program should be able to run on linux, although it has not been tested on other systems.
+
 Group	Members
-List	the	people	who	worked	on	the	project.
+N/A
+
 Contributors
-List	the	people	who	were	not	on	the	project	team,	but	may	have	contributed	
-comments,	enhancements,	and	bug	fixes.
+N/A
+
 Open	issues/bugs
-List	any	known	bugs	in	the	project,	and	any	open	enhancement	requests.
+There are no known bugs that I have found, please notify me if there is any issues.
