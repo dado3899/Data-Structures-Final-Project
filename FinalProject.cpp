@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main(/*int argc, char* argv[]*/)
+int main(int argc, char* argv[])
 {
     MovieTree movietree;
     int ranker=0;
@@ -13,8 +13,8 @@ int main(/*int argc, char* argv[]*/)
     ifstream inFile;
     string Data="Blank";
     MovieNode *root=NULL;
-    //inFile.open(argv[1]);
-    inFile.open("MovieText.txt");
+    inFile.open(argv[1]);
+    //inFile.open("MovieText.txt");
     if(inFile.good())
     {
         while(getline(inFile, Data))
