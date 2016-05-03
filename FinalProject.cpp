@@ -7,6 +7,12 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
+
+    if (argc != 2) { 
+        cout << "Correct Usage: " << argv[0] << " FileName.txt" << endl;
+        exit(1);
+        
+    }
     MovieTree movietree;
     int ranker=0;
     int counter=0;
