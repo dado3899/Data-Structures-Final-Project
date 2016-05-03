@@ -347,9 +347,26 @@ void MovieTree::editMovie(std::string Name, MovieNode *root, std::string newtitl
             {
                 newgenre=tmp->genre;
             }
-            tmp->title=newtitle;
-            tmp->year=newyear;
-            tmp->genre=newgenre;
+            if(newtitle!=tmp->title)//check if the title has been changed
+            {
+                MovieNode* current = new MovieNode;
+                current->title= newtitle;
+                current->genre = tmp->genre;
+                current ->year = tmp->year;
+                current ->ranking = tmp->ranking;
+                current ->quantity = tmp->quantity;
+                deleteMovieNode(tmp->title, root);
+                std::cout<<"delete"<<std::endl;
+                //current->title=newtitle;
+                std::cout<<current->title<<std::endl;
+                addnewmovie(current, root);
+                std::cout<<"add"<<std::endl;
+            }
+            else{
+                tmp->title=newtitle;
+                tmp->year=newyear;
+                tmp->genre=newgenre;
+            }
             return;
         }
         else if((Name).compare(tmp->title) < 0)
