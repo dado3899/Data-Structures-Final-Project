@@ -196,8 +196,15 @@ int main(int argc, char* argv[])
             cin>>startyear;
             cout<<"Enter the ending year:"<<endl;
             cin>>endyear;
-            cout<<"======"<<startyear<<"-"<<endyear<<"======"<<endl;
-            movietree.printyear(startyear, endyear, root);
+            if (startyear > endyear)
+            {
+                cout<<"starting year cannot be later than ending year."<<endl;
+            }
+            else
+            {
+                cout<<"======"<<startyear<<"-"<<endyear<<"======"<<endl;
+                movietree.printyear(startyear, endyear, root);
+            }
         }
         if(input==10)
         {
